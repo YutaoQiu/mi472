@@ -4,17 +4,6 @@ html, body {
   margin: 0;
 }
 
-.audio {
-  position: absolute;
-  top: 200px;
-  left: 100px;
-}
-
-.audio-right {
-  position: absolute;
-  top: 200px;
-  right: 100px;
-}
 
 @keyframes scale {
   0% {
@@ -32,14 +21,6 @@ html, body {
   100% {
     transform: scale(1) rotate(0);
   }
-}
-#btn {
-  animation: scale 3s both infinite;
-  -moz-animation: scale 53s both infinite;
-  /* Firefox */
-  -webkit-animation: scale 3s both infinite;
-  /* Safari 和 Chrome */
-  -o-animation: scale 3s both infinite;
 }
 
 header nav {
