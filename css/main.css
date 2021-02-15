@@ -4,25 +4,6 @@ html, body {
   margin: 0;
 }
 
-
-@keyframes scale {
-  0% {
-    transform: scale(1);
-  }
-  70%, 73% {
-    transform: scale(0.9) rotate(-3deg);
-  }
-  77%, 83%, 90%, 97% {
-    transform: scale(1.1) rotate(3deg);
-  }
-  80%, 87%, 93% {
-    transform: scale(1.1) rotate(-3deg);
-  }
-  100% {
-    transform: scale(1) rotate(0);
-  }
-}
-
 header nav {
   margin: 0;
   padding: 0;
@@ -88,49 +69,4 @@ section .main .introduce {
 }
 section .main .introduce p {
   color: #fff;
-}
-
-.persons {
-  padding-top: 50px;
-  padding-bottom: 50px;
-  width: 1100px;
-  margin: 0 auto;
-  display: flex;
-}
-.persons .person {
-  background: #101010;
-}
-.persons .person .person-img {
-  width: 200px;
-  height: 200px;
-  margin: 20px;
-  border-radius: 50%;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
-.persons .person h6 {
-  text-align: center;
-}
-.persons .person h6 span {
-  position: relative;
-  color: white;
-  font-size: 20px;
-}
-.persons .person h6 span:after {
-  content: "";
-  position: absolute;
-  left: -13px;
-  bottom: -27px;
-  width: 50px;
-  box-shadow: 2px 13px 40px 12px #020202;
-  background: transparent;
-}
-.persons .person-intro {
-  display: flex;
-  align-items: baseline;
-  margin-left: 20px;
-  padding: 55px 20px 0 20px;
-  background: #101010;
-  color: white;
 }
